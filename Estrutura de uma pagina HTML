@@ -1,57 +1,56 @@
 ✅ ESTRUTURA SEMÂNTICA DE UMA PÁGINA HTML
-1. HEADER – Cabeçalho da página
-Representa o início da página ou de uma seção.
+🔹 1. <header> – Cabeçalho da página
+🧠 Representa o início da página ou de uma seção.
 
-Geralmente contém:
+📌 Geralmente contém:
 
-Nome do site
+🏷️ Nome do site
 
-Logotipo
+🖼️ Logotipo
 
-Título principal
+📰 Título principal
 
-Menu de navegação
+📂 Menu de navegação
 
-1.1 NAV – Área de navegação
-A tag <nav> é usada para agrupar links de navegação.
+🔸 1.1 <nav> – Área de navegação
+🔗 Usada para agrupar links de navegação.
 
-Normalmente aparece dentro do <header>, mas pode estar em qualquer parte da página.
+📍 Normalmente aparece dentro do <header>, mas pode estar em qualquer lugar da página.
 
-Exemplo de uso: links como Início, Sobre, Contato, etc.
+✅ Exemplo de links: Início, Sobre, Contato.
 
-2. MAIN – Conteúdo principal da página
-Representa a parte principal do site.
+🔹 2. <main> – Conteúdo principal da página
+📣 Representa a parte principal do site.
 
-Deve aparecer apenas uma vez por página.
+❗ Deve aparecer apenas uma vez por página.
 
-Não pode conter <header>, <footer> ou <nav>, pois esses são conteúdos auxiliares.
+🚫 Não deve conter <header>, <footer> ou <nav>.
 
-2.1 SECTION – Seções temáticas
-A tag <section> divide o conteúdo do <main> em blocos com tema próprio.
+🔸 2.1 <section> – Seções temáticas
+🧩 Divide o <main> em blocos com temas específicos.
 
-Cada seção normalmente possui um título (como <h2>).
+📝 Cada seção costuma ter um título próprio (como <h2>).
 
-Exemplo de seções: Sobre nós, Serviços, Contato.
+📋 Exemplos de uso: Seções como "Sobre nós", "Serviços", "Contato".
 
-2.2 DIV – Agrupamento genérico
-A tag <div> é usada para agrupar elementos sem valor semântico.
+🔸 2.2 <div> – Agrupamento genérico
+📦 Usada para agrupar elementos sem significado semântico.
 
-Serve para aplicar estilos com CSS ou para organização visual.
+🎨 Ideal para estilização com CSS ou organização visual.
 
-Diferente de <section>, não precisa de título e não representa uma seção temática.
+⚠️ Não precisa de título e não representa um tema específico, diferente do <section>.
 
-3. FOOTER – Rodapé da página
-Representa o final da página ou de uma seção.
+🔹 3. <footer> – Rodapé da página
+🔚 Representa o final da página ou de uma seção.
 
-Pode conter:
+ℹ️ Pode conter:
 
-Direitos autorais
+© Direitos autorais
 
-Informações de contato
+📞 Informações de contato
 
-Links úteis
+🔗 Links úteis
 
-Redes sociais
+📱 Redes sociais
 
-Pode aparecer mais de uma vez, como no rodapé da página ou dentro de um artigo.
-
+🔁 Pode aparecer mais de uma vez (por exemplo, na página e dentro de um artigo).
