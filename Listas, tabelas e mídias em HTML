@@ -1,0 +1,50 @@
+
+
+Listas em HTML – Usadas para organizar itens de forma ordenada ou não ordenada na página.
+
+🔸 Lista Ordenada (ol): Utilizada quando a ordem dos itens é importante (por exemplo, 1, 2, 3).
+
+📌 Sintaxe:
+<ol>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+</ol>
+🔸 Lista Não Ordenada (ul): Utilizada quando a ordem dos itens não importa (por exemplo, uma lista de compras).
+
+📌 Sintaxe:
+
+<ul>
+  <li>Primeiro item</li>
+  <li>Segundo item</li>
+</ul>
+🔹 Tabelas em HTML – Usadas para organizar dados em colunas e linhas, criando uma estrutura semelhante a uma tabela.
+
+🎥 Sintaxe:
+<table>
+  <tr>
+    <th>Itens</th>
+  </tr>
+</table>
+📌 Tags:
+
+<tr>: Define uma linha da tabela.
+
+<th>: Define um cabeçalho da tabela.
+
+<td>: Define uma célula de dados (não mostrado no exemplo).
+
+🔹 Tag <video> – Usada para incluir vídeos na página HTML.
+
+📌 Atributos importantes:
+
+width e height: Definem o tamanho do vídeo.
+
+controls: Adiciona controles de reprodução como play, pause, e volume.
+
+🎥 Sintaxe:
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.webm" type="video/webm">
+  Seu navegador não oferece suporte para a tag de vídeo.
+</video>
+
