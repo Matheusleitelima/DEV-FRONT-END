@@ -1,0 +1,57 @@
+✅ ESTRUTURA SEMÂNTICA DE UMA PÁGINA HTML
+1. HEADER – Cabeçalho da página
+Representa o início da página ou de uma seção.
+
+Geralmente contém:
+
+Nome do site
+
+Logotipo
+
+Título principal
+
+Menu de navegação
+
+1.1 NAV – Área de navegação
+A tag <nav> é usada para agrupar links de navegação.
+
+Normalmente aparece dentro do <header>, mas pode estar em qualquer parte da página.
+
+Exemplo de uso: links como Início, Sobre, Contato, etc.
+
+2. MAIN – Conteúdo principal da página
+Representa a parte principal do site.
+
+Deve aparecer apenas uma vez por página.
+
+Não pode conter <header>, <footer> ou <nav>, pois esses são conteúdos auxiliares.
+
+2.1 SECTION – Seções temáticas
+A tag <section> divide o conteúdo do <main> em blocos com tema próprio.
+
+Cada seção normalmente possui um título (como <h2>).
+
+Exemplo de seções: Sobre nós, Serviços, Contato.
+
+2.2 DIV – Agrupamento genérico
+A tag <div> é usada para agrupar elementos sem valor semântico.
+
+Serve para aplicar estilos com CSS ou para organização visual.
+
+Diferente de <section>, não precisa de título e não representa uma seção temática.
+
+3. FOOTER – Rodapé da página
+Representa o final da página ou de uma seção.
+
+Pode conter:
+
+Direitos autorais
+
+Informações de contato
+
+Links úteis
+
+Redes sociais
+
+Pode aparecer mais de uma vez, como no rodapé da página ou dentro de um artigo.
+
