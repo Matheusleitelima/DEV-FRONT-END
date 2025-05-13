@@ -1,0 +1,141 @@
+
+ELEMENTOS E ATRIBUTOS DE UM FORMULARIO
+<form>
+Atributo: action
+👉 Define o endereço (URL) para onde os dados do formulário serão enviados quando o usuário clicar em "enviar".
+
+Atributo: method
+👉 Especifica o método HTTP que será usado no envio dos dados. Os mais comuns são:
+
+GET: os dados são enviados pela URL (visível).
+
+POST: os dados são enviados no corpo da requisição (mais seguro para informações sensíveis).
+
+🔶 <label>
+Atributo: for
+👉 Associa o texto do <label> a um campo específico do formulário, usando o id desse campo.
+Exemplo:
+ <form>
+Atributo: action
+👉 Define o endereço (URL) para onde os dados do formulário serão enviados quando o usuário clicar em "enviar".
+
+Atributo: method
+👉 Especifica o método HTTP que será usado no envio dos dados. Os mais comuns são:
+
+GET: os dados são enviados pela URL (visível).
+
+POST: os dados são enviados no corpo da requisição (mais seguro para informações sensíveis).
+
+🔶 <label>
+Atributo: for
+👉 Associa o texto do <label> a um campo específico do formulário, usando o id desse campo.
+Exemplo:
+<label for="email">E-mail:</label>
+<input type="email" id="email">
+🔶 <input>
+Atributo: minlength e maxlength
+👉 Define a quantidade mínima e máxima de caracteres que o usuário pode digitar.
+
+Atributo: type
+👉 Indica o tipo de entrada, como:
+
+text, email, password, number, etc.
+Cada tipo muda o comportamento e a aparência do campo.
+
+🔶 <button> e <input>
+Atributo: type
+👉 Também define o tipo de botão ou input:
+
+No <button>: pode ser submit, reset, ou button.
+
+No <input>: pode ser text, submit, checkbox, radio, entre outros.
+
+🔶 <option>
+Atributo: value
+👉 Define o valor que será enviado quando essa opção for selecionada dentro de um <select> ou de um <input>.
+
+
+
+🧩 Tipos (type) em Inputs e Botões HTML
+Abaixo estão os principais valores que o atributo type pode receber em campos de formulário. Eles determinam como o campo vai se comportar e o que o usuário poderá fazer.
+
+🔐 type="password"
+Mostra os caracteres digitados como asteriscos (●●●).
+
+Usado para campos de senha, garantindo mais privacidade visual.
+
+👻 type="hidden"
+Cria um campo invisível para o usuário.
+
+Útil para enviar informações que o usuário não precisa ver ou editar, como um ID oculto.
+
+☑️ type="checkbox"
+Cria uma caixinha de seleção.
+
+Permite que o usuário selecione uma ou mais opções (marcar/desmarcar).
+
+🔘 type="radio"
+Cria um botão do tipo "bolinha" para seleção exclusiva.
+
+Permite escolher apenas uma opção entre várias.
+
+📤 type="submit"
+Usado em botões para enviar o formulário.
+
+Quando clicado, os dados preenchidos são enviados para o endereço definido no action do <form>.
+
+🧹 type="reset"
+Botão que limpa todos os campos do formulário, voltando ao valor inicial.
+
+🔲 type="button"
+Cria um botão genérico que não faz nada por padrão.
+
+Pode ser usado com JavaScript para executar uma ação personalizada.
+
+
+
+
+Exemplo de formulario:
+
+ <form action="/pagina-processamento de dados" method="post">
+    <fieldset>
+        <legend>Dados gerais</legend>
+        <label for="nome">Nome</label>
+        <input type="text" minlength="3" id="nome">
+        <label for="data_nascimento">data de nascimento </label>
+        <input type="text" id="data_nascimento"/>
+        <label for="cpf">Cpf</label>
+        <input type="text" id="cpf" minlength="11">
+    </fieldset>
+
+    <fieldset>
+        <Legend>Endereço</Legend>
+        <label for="tipo_endereço">Tipo</label>
+        <select id="tipo_endereço">
+            <option value="">Selecione</option>
+            <option value="">Rua</option>
+            <option value="">Estrada</option>
+            <option value="">Rodfovia</option>
+            <option value="">Outros</option>
+        </select>
+        
+        <label for="logadouro_endereço">Logadouro</label>
+        <input type="text" name="" id="logadouro_endereço">
+        <label for="numero_endereço">Numero</label>
+        <input type="text" name="" id="numero_endereço">
+        <label for="complemento_endereço">Complemento</label>
+        <input type="text" name="" id="complemento_endereço">
+    </fieldset>
+
+    <fieldset>
+        <legend>Fale conosco</legend>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem"></textarea>
+        
+    </fieldset>
+
+    <fieldset>
+        <button type="submit">Enviar sua mensagem</button>
+        <button type="reset">Limpar formulario</button>
+    </fieldset>
+   </form>
