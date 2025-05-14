@@ -1,0 +1,23 @@
+ <head>
+        <title>Form</title>
+    </head>
+    <form>
+        <label for="nome"> Nome</label>
+        <input type="text" name="" id="nome" required>
+        <br>
+        <label for="email">e-mail</label>
+        <input type="email" name="" id="email" required>
+        <br>
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="" id="telefone" required>
+        <br>
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" name="" id="nascimento" required>
+        <br>
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem" cols="30" rows="4"></textarea>
+        <br>
+        <button type="submit"> Enviar</button>
+
+
+    </form>
