@@ -1,0 +1,71 @@
+📐 Layout com Linhas e Colunas
+No HTML, podemos organizar a página como uma tabela invisível, usando linhas e colunas para estruturar o conteúdo. Isso ajuda a criar um design mais limpo e responsivo.
+
+🔖 Identificando Elementos: id e class
+No HTML, usamos:
+
+id="nome" 👉 Identificador único para um elemento (📛 só pode ter um).
+
+class="nome" 👉 Pode ser usada em vários elementos (♻️ reutilizável).
+
+No CSS:
+
+#id 👉 Estiliza um elemento com id específico.
+
+.class 👉 Estiliza todos os elementos com aquela classe.
+
+, 👉 Aplica o mesmo estilo para vários seletores.
+
+🧰 Framework
+Um framework é um conjunto de códigos prontos 🧱 que ajuda a construir sites de forma mais rápida, com menos esforço. Ex: Bootstrap.
+
+🎨 Como a CSS Funciona?
+Ela serve para estilizar o HTML (cores, tamanhos, posições, etc).
+
+Para usar um arquivo CSS externo, adicione esta linha no <head> do HTML:
+
+<link rel="stylesheet" href="style.css">
+👆 Isso "linka" o HTML ao arquivo style.css.
+
+🧾 Sintaxe do CSS
+seletor {
+  propriedade: valor;
+}
+Exemplo:
+p {
+  text-align: center;        /* Alinha o texto no centro 🧍‍♂️ */
+  color: blue;               /* Cor azul 🔵 */
+  font-size: 30px;           /* Tamanho da fonte 📏 */
+  padding-top: 10px;         /* Espaço acima do texto ⬆️ */
+  padding-bottom: 10px;      /* Espaço abaixo ⬇️ */
+  padding-right: 5px;        /* Espaço à direita ➡️ */
+  padding-left: 5px;         /* Espaço à esquerda ⬅️ */
+}
+📝 Dica: Cuidado com espaços errados como padding - top e 10 px. O correto é padding-top: 10px; (sem espaço entre palavras e px).
+
+🆔 ID (Identificador Único)
+#para1 {
+  color: red;
+}
+🔒 Só pode ser usado em um único elemento por página.
+
+🌀 Classe (Class)
+css
+Copiar
+Editar
+.texto {
+  font-weight: bold;
+}
+🔁 Pode ser usada em vários elementos, ideal para repetir estilos.
+
+💬 Comentário em CSS
+/* Isso é um comentário */
+🛑 Comentários não são exibidos no navegador, só ajudam você a organizar o código.
+
+👪 Herança em CSS
+💡 Algumas propriedades aplicadas a um elemento pai são herdadas pelos filhos. Exemplo:
+<div style="color: green;">
+  <p>Esse parágrafo será verde!</p>
+</div>
+🎯 O parágrafo <p> herda a cor verde do <div> automaticamente!
+
