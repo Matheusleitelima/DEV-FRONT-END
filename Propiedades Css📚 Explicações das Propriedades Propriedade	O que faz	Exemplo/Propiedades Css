@@ -1,0 +1,31 @@
+📚 Explicações das Propriedades
+Propriedade	O que faz	Exemplo/Emoji
+background:	Define a cor de fundo do elemento	🎨
+width:	Define a largura fixa	📏
+margin: 0 auto	Margem em cima e embaixo = 0, laterais automáticas	🎯 Centraliza
+padding:	Espaçamento interno entre o conteúdo e a borda	📦
+font-weight: bold	Deixa o texto em negrito	🅱️
+list-style: none	Remove os marcadores da lista	🚫🔵
+margin-bottom:	Cria espaço abaixo de cada item	📐⬇️
+display: inline	Coloca os itens lado a lado (ao invés de um por linha)	↔️
+
+
+/* 🎯 Container principal da página */
+#container {
+    background: crimson;     /* 🎨 Cor de fundo vermelho escuro */
+    width: 960px;            /* 📏 Largura fixa de 960 pixels */
+    margin: 0 auto;          /* 🎯 Centraliza o container horizontalmente (margem automática nas laterais) */
+    padding: 10px;           /* 📦 Espaço interno de 10px em todos os lados */
+}
+
+/* ✨ Destaque em textos */
+.texto-destaque {
+    font-weight: bold;       /* 🅱️ Deixa o texto em negrito (peso da fonte alto) */
+}
+
+/* 📋 Lista personalizada */
+ul li {
+    list-style: none;        /* 🚫 Remove os marcadores (bolinhas) da lista */
+    margin-bottom: 5px;      /* 📐 Espaço entre um item e outro na vertical */
+    display: inline;         /* ↔️ Exibe os itens da lista na horizontal, um ao lado do outro */
+}
