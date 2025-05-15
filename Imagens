@@ -1,0 +1,16 @@
+<img src="" alt="" width ="300" height="100">
+
+Src: Caminho da imagem
+Alt: descrição da imagem
+width: largura da imagem
+height: altura da imagem
+
+<img src="https://miamiimports.com.br/wp-content/uploads/2023/12/Ford-Mustang-Shelby-Gt-500-07.jpg" alt="Imagem de mustang" width="300" >
+Imagem de caminho relativo, imagem que foram pegas do google
+Pexels: Site de imagens gratuitas
+
+para puxar uma imagem salva no pc
+<img src="img/carro.jpg" alt="Imagem de mustang" width="300" >
+
+
+
