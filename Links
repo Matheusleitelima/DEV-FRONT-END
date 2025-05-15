@@ -1,0 +1,10 @@
+<!--Link abslouto-->
+<a href="http://google.com.br" target="_blank">site</a> <br>
+
+Target: Faz que abra em uma nova guia
+
+<!--Link relativo-->
+<a href="index1.html">sobre nos</a>
+
+
+Para voltar o link é ..//
