@@ -23,3 +23,14 @@ Exemplo: outline-color: green;
 @font-face: Permite importar e usar fontes personalizadas no seu site, mesmo que o usuário não tenha essa fonte instalada no computador.
 
 Exemplo de uso:
+
+
+@font-face {
+  font-family: 'MinhaFonte';
+  src: url('minhaFonte.woff2') format('woff2');
+}
+
+body {
+  font-family: 'MinhaFonte', sans-serif;
+}
+Com @font-face, você pode melhorar a identidade visual do seu site, garantindo uma aparência única e profissional.
