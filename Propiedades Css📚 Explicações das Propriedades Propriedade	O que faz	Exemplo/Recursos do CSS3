@@ -1,0 +1,25 @@
+
+📘 Documentação
+MDN Web Docs (Developer Mozilla): É um site confiável que oferece uma documentação completa e atualizada sobre CSS, HTML, JavaScript e outras tecnologias da web. É uma excelente referência para estudar e tirar dúvidas sobre propriedades CSS.
+
+🔗 Acesse: https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+🎨 Propriedades de Cor
+Essas propriedades permitem estilizar elementos com cores personalizadas:
+
+color: Define a cor do texto.
+Exemplo: color: red;
+
+background-color: Define a cor de fundo do elemento.
+Exemplo: background-color: #f0f0f0;
+
+border-color: Define a cor das bordas.
+Exemplo: border-color: blue;
+
+outline-color: Define a cor da borda externa (outline), que é usada, por exemplo, ao focar um input.
+Exemplo: outline-color: green;
+
+🔤 Fontes Personalizadas
+@font-face: Permite importar e usar fontes personalizadas no seu site, mesmo que o usuário não tenha essa fonte instalada no computador.
+
+Exemplo de uso:
