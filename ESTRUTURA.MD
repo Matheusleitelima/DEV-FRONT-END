@@ -1,42 +1,34 @@
-📖 README – Estrutura Básica de um Site em HTML e CSS
-🔹 Estrutura Padrão
+# 📖 README -- Estrutura Básica de um Site em HTML e CSS
+
+## 🔹 Estrutura Padrão
 
 Um site geralmente é dividido nas seguintes partes:
 
-<header> – Cabeçalho
+1.  **`<header>` -- Cabeçalho**
+    -   Localizado no topo da página.\
+    -   Contém logotipo, título, menu de navegação, barra de pesquisa.
+2.  **`<nav>` -- Navegação**
+    -   Pode ficar dentro do `header` ou separado.\
+    -   É o menu com links para outras seções ou páginas.
+3.  **`<main>` -- Conteúdo principal**
+    -   Contém as informações mais importantes do site.\
+    -   Pode incluir:
+        -   **`<section>`** → agrupa conteúdos relacionados (ex: "Sobre
+            nós", "Serviços").\
+        -   **`<article>`** → usado para posts, artigos ou conteúdos
+            independentes.\
+        -   **`<aside>`** → conteúdo complementar, geralmente lateral
+            (ex: links extras, propaganda).
+4.  **`<footer>` -- Rodapé**
+    -   Fica no fim da página.\
+    -   Contém créditos, direitos autorais, contatos, redes sociais e
+        links úteis.
 
-Localizado no topo da página.
+------------------------------------------------------------------------
 
-Contém logotipo, título, menu de navegação, barra de pesquisa.
+## 🔹 Diagrama Visual da Estrutura
 
-<nav> – Navegação
-
-Pode ficar dentro do header ou separado.
-
-É o menu com links para outras seções ou páginas.
-
-<main> – Conteúdo principal
-
-Contém as informações mais importantes do site.
-
-Pode incluir:
-
-<section> → agrupa conteúdos relacionados (ex: "Sobre nós", "Serviços").
-
-<article> → usado para posts, artigos ou conteúdos independentes.
-
-<aside> → conteúdo complementar, geralmente lateral (ex: links extras, propaganda).
-
-<footer> – Rodapé
-
-Fica no fim da página.
-
-Contém créditos, direitos autorais, contatos, redes sociais e links úteis.
-
-
-
-
-
+``` text
 ┌───────────────────────────────────┐
 │              HEADER               │
 │   Logo | Menu de Navegação        │
@@ -60,12 +52,14 @@ Contém créditos, direitos autorais, contatos, redes sociais e links úteis.
 ┌───────────────────────────────────┐
 │              FOOTER               │
 │  © 2025 - Direitos reservados     │
+└───────────────────────────────────┘
+```
 
+------------------------------------------------------------------------
 
+## 🔹 Exemplo de Estrutura em Código
 
-
-
-
+``` html
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -104,9 +98,4 @@ Contém créditos, direitos autorais, contatos, redes sociais e links úteis.
   </footer>
 </body>
 </html>
-
-
-
-
-
-└───────────────────────────────────┘
+```
